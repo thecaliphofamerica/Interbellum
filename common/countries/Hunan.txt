@@ -1,0 +1,6 @@
+#HNN
+
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d	 
+
+color = { 74 10 0 } #Hunan Sauce

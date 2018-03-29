@@ -1,0 +1,39 @@
+##I SINCERELY NEED WORK
+bookmarks = {
+	bookmark = {
+		name = "The Crossroads of History"
+		desc = "temp"
+		date = 1919.1.1.1
+		picture = "GFX_select_date_1919"
+		default_country = "SOV"
+		SOV = {
+			history = SOV_CROSSROADS_DESC
+		}
+		KMT = {
+			history = KMT_CROSSROADS_DESC
+			ideology = #
+			ideas={
+			}
+			
+		}
+		ANH = {
+			history = ANHUI_CROSSROADS_DESC
+			ideology = #
+			ideas={
+			}		
+			
+		}
+		USA = {
+			history = USA_CROSSROADS_DESC
+			ideology = #
+			ideas = {
+			}
+			
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
